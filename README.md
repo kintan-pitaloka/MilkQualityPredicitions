@@ -1,14 +1,31 @@
-# MilkQualityPredicitions
-Milk Quality Predicitions with Machine Learning
+# Milk Quality Prediction Dataset
 
-About dataset This dataset is manually collected from observations. It helps us to build machine learning models to predict the quality of milk. This dataset consists of 7 independent variables ie pH, Temperature, Taste, Odor, Fat, Turbidity, and Color. Generally, the Grade or Quality of the milk depends on these parameters. These parameters play a vital role in the predictive analysis of the milk.
+## Overview
 
-Usage: The target variable is nothing but the Grade of the milk. It can be
+This dataset has been manually collected from observations to help build machine-learning models for predicting the quality of milk. The dataset includes 7 independent variables that contribute to determining the grade or quality of milk.
 
-Target: Low (Bad), Medium (Moderate), High (Good)
+## Dataset Description
 
-If Taste, Odor, Fat, and Turbidity are satisfied with optimal conditions then they will assign 1 otherwise 0. Temperature and ph are given their actual values in the dataset.
+The dataset consists of the following features:
 
-We have to perform data preprocessing, and data augmentation techniques to build statistical and predictive models to predict the quality of the milk.
+- **pH**: The pH level of the milk.
+- **Temperature**: The temperature at which the milk is stored.
+- **Taste**: Binary value (1 if the taste is optimal, 0 otherwise).
+- **Odor**: Binary value (1 if the odor is optimal, 0 otherwise).
+- **Fat**: Binary value (1 if the fat content is optimal, 0 otherwise).
+- **Turbidity**: Binary value (1 if the turbidity is optimal, 0 otherwise).
+- **Color**: The color value of the milk (measured as an integer).
 
-Inspiration To leverage the benefits of machine learning in the dairy industry.
+The target variable is the **Grade** of the milk, which is categorized as follows:
+
+- **Low (Bad)**
+- **Medium (Moderate)**
+- **High (Good)**
+
+## Usage
+
+This dataset can be used to perform data preprocessing, apply data augmentation techniques, and build statistical and predictive models to predict the quality of milk.
+
+### Inspiration
+
+The purpose of this dataset is to leverage the benefits of machine learning in the dairy industry by accurately predicting the quality of milk based on various parameters.
